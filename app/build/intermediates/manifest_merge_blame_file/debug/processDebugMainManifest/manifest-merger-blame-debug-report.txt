@@ -1,0 +1,421 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.quick.play"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:4:5-67
+11-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:5:5-79
+12-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission
+13-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:6:5-107
+14        android:name="android.permission.READ_EXTERNAL_STORAGE"
+14-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:6:22-77
+15        android:maxSdkVersion="32" />
+15-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:6:78-104
+16    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+16-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:7:5-75
+16-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:7:22-72
+17    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+17-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:8:5-75
+17-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:8:22-72
+18
+19    <permission
+19-->[androidx.core:core:1.16.0] /opt/gradle-home/caches/8.11.1/transforms/ecf3111fd5d42c709c045fa970edc107/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+20        android:name="com.quick.play.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.16.0] /opt/gradle-home/caches/8.11.1/transforms/ecf3111fd5d42c709c045fa970edc107/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.16.0] /opt/gradle-home/caches/8.11.1/transforms/ecf3111fd5d42c709c045fa970edc107/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.quick.play.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.16.0] /opt/gradle-home/caches/8.11.1/transforms/ecf3111fd5d42c709c045fa970edc107/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.16.0] /opt/gradle-home/caches/8.11.1/transforms/ecf3111fd5d42c709c045fa970edc107/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:10:5-126:19
+26        android:allowBackup="true"
+26-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:11:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.16.0] /opt/gradle-home/caches/8.11.1/transforms/ecf3111fd5d42c709c045fa970edc107/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:icon="@mipmap/ic_launcher"
+30-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:14:9-43
+31        android:label="@string/app_name"
+31-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:12:9-41
+32        android:supportsRtl="true"
+32-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:13:9-35
+33        android:theme="@android:style/Theme.Material.Light.NoActionBar" >
+33-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:15:9-72
+34        <activity
+34-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:17:9-25:20
+35            android:name="com.quick.play.MainActivity"
+35-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:18:13-41
+36            android:exported="true"
+36-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:19:13-36
+37            android:windowSoftInputMode="adjustResize" >
+37-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:20:13-55
+38            <intent-filter>
+38-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:21:13-24:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:22:17-69
+39-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:22:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:23:17-77
+41-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:23:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:27:9-124:20
+45            android:name="com.quick.play.ExternalPlayerActivity"
+45-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:28:13-51
+46            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout"
+46-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:30:13-106
+47            android:exported="true"
+47-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:29:13-36
+48            android:launchMode="singleTop"
+48-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:31:13-43
+49            android:screenOrientation="sensorLandscape"
+49-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:32:13-56
+50            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+50-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:33:13-77
+51
+52            <!-- 1. Pure Media MIME types (Implicit content/file) -->
+53            <intent-filter>
+53-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:36:13-47:29
+54                <action android:name="android.intent.action.VIEW" />
+54-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:37:17-69
+54-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:37:25-66
+55
+56                <category android:name="android.intent.category.DEFAULT" />
+56-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:38:17-76
+56-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:38:27-73
+57                <category android:name="android.intent.category.BROWSABLE" />
+57-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:39:17-78
+57-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:39:27-75
+58
+59                <data android:mimeType="video/*" />
+59-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+59-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:23-49
+60                <data android:mimeType="audio/*" />
+60-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+60-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:23-49
+61                <data android:mimeType="application/x-mpegURL" />
+61-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+61-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:23-49
+62                <data android:mimeType="application/vnd.apple.mpegurl" />
+62-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+62-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:23-49
+63                <data android:mimeType="application/dash+xml" />
+63-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+63-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:23-49
+64                <data android:mimeType="application/mp4" />
+64-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+64-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:23-49
+65                <data android:mimeType="application/x-matroska" />
+65-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+65-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:23-49
+66            </intent-filter>
+67
+68            <!-- 2. Schemes + Media MIME types -->
+69            <intent-filter>
+69-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:50:13-66:29
+70                <action android:name="android.intent.action.VIEW" />
+70-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:37:17-69
+70-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:37:25-66
+71
+72                <category android:name="android.intent.category.DEFAULT" />
+72-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:38:17-76
+72-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:38:27-73
+73                <category android:name="android.intent.category.BROWSABLE" />
+73-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:39:17-78
+73-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:39:27-75
+74
+75                <data android:scheme="http" />
+75-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+75-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:54:23-44
+76                <data android:scheme="https" />
+76-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+76-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:54:23-44
+77                <data android:scheme="content" />
+77-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+77-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:54:23-44
+78                <data android:scheme="file" />
+78-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+78-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:54:23-44
+79                <data android:scheme="rtmp" />
+79-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+79-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:54:23-44
+80                <data android:mimeType="video/*" />
+80-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+80-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:23-49
+81                <data android:mimeType="audio/*" />
+81-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+81-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:23-49
+82                <data android:mimeType="application/x-mpegURL" />
+82-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+82-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:23-49
+83                <data android:mimeType="application/vnd.apple.mpegurl" />
+83-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+83-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:23-49
+84                <data android:mimeType="application/dash+xml" />
+84-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+84-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:23-49
+85                <data android:mimeType="application/mp4" />
+85-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+85-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:23-49
+86                <data android:mimeType="application/x-matroska" />
+86-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+86-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:23-49
+87            </intent-filter>
+88
+89            <!-- 3. Schemes + Path Patterns (NO MIME TYPE) -->
+90            <intent-filter>
+90-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:69:13-89:29
+91                <action android:name="android.intent.action.VIEW" />
+91-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:37:17-69
+91-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:37:25-66
+92
+93                <category android:name="android.intent.category.DEFAULT" />
+93-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:38:17-76
+93-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:38:27-73
+94                <category android:name="android.intent.category.BROWSABLE" />
+94-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:39:17-78
+94-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:39:27-75
+95
+96                <data android:scheme="http" />
+96-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+96-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:54:23-44
+97                <data android:scheme="https" />
+97-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+97-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:54:23-44
+98                <data android:scheme="content" />
+98-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+98-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:54:23-44
+99                <data android:scheme="file" />
+99-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+99-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:54:23-44
+100                <data android:host="*" />
+100-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+100-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:77:23-39
+101                <data android:pathPattern=".*\\.mp4" />
+101-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+101-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+102                <data android:pathPattern=".*\\.mkv" />
+102-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+102-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+103                <data android:pathPattern=".*\\.m3u8" />
+103-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+103-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+104                <data android:pathPattern=".*\\.ts" />
+104-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+104-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+105                <data android:pathPattern=".*\\.webm" />
+105-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+105-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+106                <data android:pathPattern=".*\\.avi" />
+106-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+106-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+107                <data android:pathPattern=".*\\.mov" />
+107-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+107-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+108                <data android:pathPattern=".*\\.mpd" />
+108-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+108-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+109                <data android:pathPattern=".*\\.mp4\\..*" />
+109-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+109-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+110                <data android:pathPattern=".*\\.mkv\\..*" />
+110-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+110-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+111                <data android:pathPattern=".*\\.m3u8\\..*" />
+111-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+111-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+112            </intent-filter>
+113
+114            <!-- 4. Catch-all for generic MIME types (*/* or application/octet-stream) but restricted by video extensions -->
+115            <intent-filter>
+115-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:92:13-110:29
+116                <action android:name="android.intent.action.VIEW" />
+116-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:37:17-69
+116-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:37:25-66
+117
+118                <category android:name="android.intent.category.DEFAULT" />
+118-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:38:17-76
+118-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:38:27-73
+119                <category android:name="android.intent.category.BROWSABLE" />
+119-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:39:17-78
+119-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:39:27-75
+120
+121                <data android:scheme="http" />
+121-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+121-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:54:23-44
+122                <data android:scheme="https" />
+122-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+122-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:54:23-44
+123                <data android:scheme="content" />
+123-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+123-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:54:23-44
+124                <data android:scheme="file" />
+124-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+124-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:54:23-44
+125                <data android:host="*" />
+125-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+125-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:77:23-39
+126                <data android:mimeType="*/*" />
+126-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+126-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:23-49
+127                <data android:pathPattern=".*\\.mp4" />
+127-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+127-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+128                <data android:pathPattern=".*\\.mkv" />
+128-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+128-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+129                <data android:pathPattern=".*\\.m3u8" />
+129-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+129-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+130                <data android:pathPattern=".*\\.ts" />
+130-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+130-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+131                <data android:pathPattern=".*\\.webm" />
+131-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+131-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+132                <data android:pathPattern=".*\\.avi" />
+132-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+132-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+133                <data android:pathPattern=".*\\.mov" />
+133-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+133-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+134                <data android:pathPattern=".*\\.mpd" />
+134-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+134-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:78:23-53
+135            </intent-filter>
+136            <intent-filter>
+136-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:112:13-122:29
+137                <action android:name="android.intent.action.VIEW" />
+137-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:37:17-69
+137-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:37:25-66
+138
+139                <category android:name="android.intent.category.DEFAULT" />
+139-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:38:17-76
+139-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:38:27-73
+140                <category android:name="android.intent.category.BROWSABLE" />
+140-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:39:17-78
+140-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:39:27-75
+141
+142                <data android:scheme="http" />
+142-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+142-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:54:23-44
+143                <data android:scheme="https" />
+143-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+143-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:54:23-44
+144                <data android:scheme="content" />
+144-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+144-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:54:23-44
+145                <data android:scheme="file" />
+145-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+145-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:54:23-44
+146                <data android:host="*" />
+146-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+146-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:77:23-39
+147                <data android:mimeType="application/octet-stream" />
+147-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:17-52
+147-->/mnt/efs-native/sessions/97dac33f-44d1-4457-8ba5-a0aa39038da2/agent_2/app/src/main/AndroidManifest.xml:40:23-49
+148            </intent-filter>
+149        </activity>
+150        <activity
+150-->[androidx.compose.ui:ui-tooling-android:1.10.2] /opt/gradle-home/caches/8.11.1/transforms/d6eb0824797a0a3af48478c52efac793/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
+151            android:name="androidx.compose.ui.tooling.PreviewActivity"
+151-->[androidx.compose.ui:ui-tooling-android:1.10.2] /opt/gradle-home/caches/8.11.1/transforms/d6eb0824797a0a3af48478c52efac793/transformed/ui-tooling/AndroidManifest.xml:24:13-71
+152            android:exported="true" />
+152-->[androidx.compose.ui:ui-tooling-android:1.10.2] /opt/gradle-home/caches/8.11.1/transforms/d6eb0824797a0a3af48478c52efac793/transformed/ui-tooling/AndroidManifest.xml:25:13-36
+153
+154        <uses-library
+154-->[androidx.window:window:1.5.0] /opt/gradle-home/caches/8.11.1/transforms/8f51aadd5101a30c414b593d80986311/transformed/window-1.5.0/AndroidManifest.xml:23:9-25:40
+155            android:name="androidx.window.extensions"
+155-->[androidx.window:window:1.5.0] /opt/gradle-home/caches/8.11.1/transforms/8f51aadd5101a30c414b593d80986311/transformed/window-1.5.0/AndroidManifest.xml:24:13-54
+156            android:required="false" />
+156-->[androidx.window:window:1.5.0] /opt/gradle-home/caches/8.11.1/transforms/8f51aadd5101a30c414b593d80986311/transformed/window-1.5.0/AndroidManifest.xml:25:13-37
+157        <uses-library
+157-->[androidx.window:window:1.5.0] /opt/gradle-home/caches/8.11.1/transforms/8f51aadd5101a30c414b593d80986311/transformed/window-1.5.0/AndroidManifest.xml:26:9-28:40
+158            android:name="androidx.window.sidecar"
+158-->[androidx.window:window:1.5.0] /opt/gradle-home/caches/8.11.1/transforms/8f51aadd5101a30c414b593d80986311/transformed/window-1.5.0/AndroidManifest.xml:27:13-51
+159            android:required="false" />
+159-->[androidx.window:window:1.5.0] /opt/gradle-home/caches/8.11.1/transforms/8f51aadd5101a30c414b593d80986311/transformed/window-1.5.0/AndroidManifest.xml:28:13-37
+160
+161        <provider
+161-->[androidx.emoji2:emoji2:1.4.0] /opt/gradle-home/caches/8.11.1/transforms/60d8e3978c61a10b2d4e65a5bf27cb02/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+162            android:name="androidx.startup.InitializationProvider"
+162-->[androidx.emoji2:emoji2:1.4.0] /opt/gradle-home/caches/8.11.1/transforms/60d8e3978c61a10b2d4e65a5bf27cb02/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+163            android:authorities="com.quick.play.androidx-startup"
+163-->[androidx.emoji2:emoji2:1.4.0] /opt/gradle-home/caches/8.11.1/transforms/60d8e3978c61a10b2d4e65a5bf27cb02/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+164            android:exported="false" >
+164-->[androidx.emoji2:emoji2:1.4.0] /opt/gradle-home/caches/8.11.1/transforms/60d8e3978c61a10b2d4e65a5bf27cb02/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+165            <meta-data
+165-->[androidx.emoji2:emoji2:1.4.0] /opt/gradle-home/caches/8.11.1/transforms/60d8e3978c61a10b2d4e65a5bf27cb02/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+166                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+166-->[androidx.emoji2:emoji2:1.4.0] /opt/gradle-home/caches/8.11.1/transforms/60d8e3978c61a10b2d4e65a5bf27cb02/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+167                android:value="androidx.startup" />
+167-->[androidx.emoji2:emoji2:1.4.0] /opt/gradle-home/caches/8.11.1/transforms/60d8e3978c61a10b2d4e65a5bf27cb02/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+168            <meta-data
+168-->[androidx.lifecycle:lifecycle-process:2.10.0] /opt/gradle-home/caches/8.11.1/transforms/9eec24bf85881d26788f0e4181c2aaf1/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:29:13-31:52
+169                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+169-->[androidx.lifecycle:lifecycle-process:2.10.0] /opt/gradle-home/caches/8.11.1/transforms/9eec24bf85881d26788f0e4181c2aaf1/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:30:17-78
+170                android:value="androidx.startup" />
+170-->[androidx.lifecycle:lifecycle-process:2.10.0] /opt/gradle-home/caches/8.11.1/transforms/9eec24bf85881d26788f0e4181c2aaf1/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:31:17-49
+171            <meta-data
+171-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:29:13-31:52
+172                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+172-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:30:17-85
+173                android:value="androidx.startup" />
+173-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:31:17-49
+174        </provider>
+175
+176        <receiver
+176-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:34:9-52:20
+177            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+177-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:35:13-76
+178            android:directBootAware="false"
+178-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:36:13-44
+179            android:enabled="true"
+179-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:37:13-35
+180            android:exported="true"
+180-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:38:13-36
+181            android:permission="android.permission.DUMP" >
+181-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:39:13-57
+182            <intent-filter>
+182-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:40:13-42:29
+183                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+183-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:41:17-91
+183-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:41:25-88
+184            </intent-filter>
+185            <intent-filter>
+185-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:43:13-45:29
+186                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+186-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:44:17-85
+186-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:44:25-82
+187            </intent-filter>
+188            <intent-filter>
+188-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:46:13-48:29
+189                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+189-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:47:17-88
+189-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:47:25-85
+190            </intent-filter>
+191            <intent-filter>
+191-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:49:13-51:29
+192                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+192-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:50:17-95
+192-->[androidx.profileinstaller:profileinstaller:1.4.1] /opt/gradle-home/caches/8.11.1/transforms/b7dc3a9b0e881da0fca5e342d08a040a/transformed/profileinstaller-1.4.1/AndroidManifest.xml:50:25-92
+193            </intent-filter>
+194        </receiver>
+195    </application>
+196
+197</manifest>
