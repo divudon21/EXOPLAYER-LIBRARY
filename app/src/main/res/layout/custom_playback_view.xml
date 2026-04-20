@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- The actual video surface -->
+    <androidx.media3.ui.AspectRatioFrameLayout
+        android:id="@id/exo_content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <!-- Subtitles view -->
+    <androidx.media3.ui.SubtitleView
+        android:id="@id/exo_subtitles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- The playback controls overlay -->
+    <FrameLayout
+        android:id="@id/exo_controller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#80000000"
+            android:orientation="vertical"
+            android:paddingTop="4dp">
+
+            <!-- Time Bar (Seekbar) -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp">
+
+                <TextView
+                    android:id="@id/exo_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <androidx.media3.ui.DefaultTimeBar
+                    android:id="@id/exo_progress"
+                    android:layout_width="0dp"
+                    android:layout_height="26dp"
+                    android:layout_weight="1"
+                    app:scrubber_color="#FF0000"
+                    app:played_color="#FF0000" />
+
+                <TextView
+                    android:id="@id/exo_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Bottom Control Buttons -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="4dp"
+                android:paddingBottom="12dp">
+
+                <!-- Spacer to push settings to the right, play/pause to center -->
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@id/exo_rew"
+                    style="@style/ExoMediaButton.Rewind"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+
+                <ImageButton
+                    android:id="@id/exo_play_pause"
+                    style="@style/ExoMediaButton.Play"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp" />
+
+                <ImageButton
+                    android:id="@id/exo_ffwd"
+                    style="@style/ExoMediaButton.FastForward"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+
+                <!-- Spacer to push settings to the right -->
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <!-- Settings/Quality Button -->
+                <ImageButton
+                    android:id="@id/exo_settings"
+                    style="@style/ExoMediaButton"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/exo_icon_settings"
+                    android:contentDescription="Settings" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+</FrameLayout>
